@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepanjan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-bar">
+      <div class="logo">DD</div>
+      <div class="hamburger">
+        &#9776;
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#home">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </div>
+      <a href="#contact" class="btn">Contact Me</a>
+    </nav>
+
+    <!-- Top Banner -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="hello">Hello!</span>
+        <h1>
+          I'm <span class="highlight">Deepanjan Datta</span>, Full Stack
+          Developer
+        </h1>
+        <p>
+          Passionate developer with 1.5 years of experience building modern web
+          applications. Specialized in Angular, java, and Spring Boot.
+        </p>
+        <div class="btn-group">
+          <button class="btn" id="hire-me">Hire Me</button>
+          <button class="btn-outline" id="download-btn">Download CV</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="potrait.jpg"
+          alt="Professional Headshot"
+          class="profile-pic"
+        />
+        <div class="badge">Full Stack Dev</div>
+      </div>
+    </section>
+
+    <!-- Technical Skill -->
+    <section id="skills" class="skills">
+      <h2>Technical Skills</h2>
+      <div class="skill-cards">
+        <div class="skill-card">
+          <h3>Frontend Development</h3>
+          <p>HTML5, CSS3, Bootstrap, JavaScript, TypeScript, Angular, React</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend Development</h3>
+          <p>
+            Core Java, Spring Boot, MySQL, Node.js, Express, MongoDB, RESTful
+            APIs
+          </p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Technologies</h3>
+          <p>Git, GitHub, Docker, AWS, CI/CD, Agile</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <div class="timeline-wrapper">
+      <section class="timeline">
+        <h2>Work Experience</h2>
+        <div class="timeline-container">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="timeline-year">2023 Sept - Present</span>
+              <h3>Full Stack Developer</h3>
+              <span class="timeline-subtitle">Cognizant</span>
+              <p>
+                Developed and maintained web applications using Angular and
+                Java, Spring Boot. Collaborated with cross-functional teams to
+                deliver high-quality solutions.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="timeline-year">2023 Jan - 2023 Jul</span>
+              <h3>Intern</h3>
+              <span class="timeline-subtitle">Cognizant</span>
+              <p>
+                Started career as a Intern learning and working on frontend
+                development with React and basic backend tasks with Express.js.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <h2>Education</h2>
+        <div class="timeline-container">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="timeline-year">2019-2023</span>
+              <h3>B.Tech. Electrical Engineering</h3>
+              <span class="timeline-subtitle">Academy Of Technology</span>
+              <p>
+                Along with the core subjects, I learned the basics of computer
+                science, Focused on Java, data structures, and algorithms.
+                Participated in coding competitions and hackathons.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="timeline-year">2022</span>
+              <h3>Java with Spring & Spring Boot Certification</h3>
+              <span class="timeline-subtitle">Udemy</span>
+              <p>
+                Completed intensive training in Core and advance java
+                development technologies including Spring.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Project -->
+    <section id="projects" class="projects">
+      <h2 class="text-2xl font-bold mb-6">Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <div class="info">
+            <h3>Blood Bank Management System</h3>
+            <p>
+                A web-based platform that allows hospitals and donors to manage blood donations efficiently. 
+                Features include donor registration, blood availability tracking, and request management.
+            </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="info">
+            <h3>Bank Employee Management System</h3>
+            <p>
+                A secure platform for managing employee onboarding in a banking environment. 
+                Admins can add new employees and generate initial passwords, while employees 
+                can update their additional details and change passwords. Implements JWT authentication.
+            </p>
+            <div class="tags">
+              <span class="tag">Angular</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="info">
+            <h3>Ecommerce Application</h3>
+            <p>
+                A fully functional ecommerce platform with product listings, a shopping cart, user authentication, 
+      and payment gateway integration. Supports order management and admin dashboard for inventory control.
+            </p>
+            <div class="tags">
+              <span class="tag">Angular</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2 class="text-2xl font-bold mb-6">Let's Work Together</h2>
+      <p class="text-gray-600 mb-6">
+        Have a project in mind? Feel free to reach out!
+      </p>
+
+      <form class="contact-form" id="contact-form">
+        <div class="mb-4">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="mb-4">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="mb-4">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" id="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
